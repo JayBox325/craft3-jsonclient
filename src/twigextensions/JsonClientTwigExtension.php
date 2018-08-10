@@ -1,8 +1,8 @@
 <?php
 
-namespace dolphiq\jsonclient\twigextensions;
+namespace jaybox325\jsonclient\twigextensions;
 
-use dolphiq\jsonclient\jsonclient;
+use jaybox325\jsonclient\jsonclient;
 
 use Twig_Extension;
 use Twig_SimpleFilter;

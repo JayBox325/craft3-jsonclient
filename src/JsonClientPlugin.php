@@ -8,11 +8,11 @@
  * @link      https://dolphiq.nl/
  */
 
-namespace dolphiq\jsonclient;
+namespace jaybox325\jsonclient;
 
 use Craft;
 use craft\base\Plugin;
-use dolphiq\jsonclient\twigextensions\JsonClientTwigExtension;
+use jaybox325\jsonclient\twigextensions\JsonClientTwigExtension;
 
 class JsonClientPlugin extends \craft\base\Plugin
 {
@@ -31,6 +31,6 @@ class JsonClientPlugin extends \craft\base\Plugin
 
         Craft::$app->view->twig->addExtension(new JsonClientTwigExtension());
 
-        Craft::info('dolphiq/jsonclient plugin loaded', __METHOD__);
+        Craft::info('jaybox325/jsonclient plugin loaded', __METHOD__);
     }
 }
