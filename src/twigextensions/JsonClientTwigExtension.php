@@ -57,7 +57,7 @@ class JsonClientTwigExtension extends Twig_Extension
 		// Function for cURL
 		private static function getUrl($url) {
 			error_reporting(0);
-			var_dump($url);
+			
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_URL, $url);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
